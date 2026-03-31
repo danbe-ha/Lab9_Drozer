@@ -4,7 +4,7 @@ Ce document retrace les étapes de l'audit de sécurité effectué sur l'applica
 
 ---
 
-## 🛠️ Étape 1 & 2 : Connexion et Validation du Canal
+##  Étape 1 & 2 : Connexion et Validation du Canal
 
 L'environnement utilise Docker pour la console Drozer et un émulateur Android Studio (API 30) pour l'agent.
 
@@ -27,7 +27,7 @@ L'environnement utilise Docker pour la console Drozer et un émulateur Android S
 
 ---
 
-## 🗺️ Étape 3 : Cartographie des composants exposés
+##  Étape 3 : Cartographie des composants exposés
 
 L'analyse de la surface d'attaque de l'application `jakhar.aseem.diva` a révélé des composants critiques exportés sans protection.
 
@@ -49,7 +49,7 @@ L'analyse de la surface d'attaque de l'application `jakhar.aseem.diva` a révél
 
 ---
 
-## 🔍 Étape 4 : Vérification des protections
+##  Étape 4 : Vérification des protections
 
 L'examen du manifeste et des URI montre des failles critiques.
 
@@ -61,7 +61,7 @@ L'examen du manifeste et des URI montre des failles critiques.
 
 ---
 
-## ⚠️ Étape 5 : Analyse des risques
+##  Étape 5 : Analyse des risques
 
 | Composant | Risque Identifié | Scénario d'abus potentiel |
 | :--- | :--- | :--- |
@@ -71,7 +71,7 @@ L'examen du manifeste et des URI montre des failles critiques.
 
 ---
 
-## 🚦 Étape 6 & Triage : Priorisation des vulnérabilités
+##  Étape 6 & Triage : Priorisation des vulnérabilités
 
 | ID | Composant | Vulnérabilité | Sévérité | Impact | Statut |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -81,7 +81,7 @@ L'examen du manifeste et des URI montre des failles critiques.
 
 ---
 
-## 🛡️ Mapping OWASP (MASVS/MASTG)
+##  Mapping OWASP (MASVS/MASTG)
 
 | ID | Vulnérabilité | Référence MASTG | Description du Standard |
 | :--- | :--- | :--- | :--- |
